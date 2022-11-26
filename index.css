@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background-color: rgb(2, 2, 75);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.cal_box{
+    height: 80vh;
+    width: 30vw;
+    background-color: aqua;
+}
+.ans{
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    width: 98%;
+    background-color: rgb(115, 27, 117);
+    margin-top: 20px;
+}
+#ans{
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    width: 98%;
+    background-color: rgb(115, 27, 117);
+    margin-top: 20px;
+}
+.digits{
+    position: relative;
+    height: 12%;
+    width: 100%;
+    background-color: aquamarine;
+    margin-top: 9px;
+    display: flex;
+    flex-direction: row;
+}
+.digit{
+    height: 100%;
+    width: 30%;
+    margin-right: 2%;
+    
+}
